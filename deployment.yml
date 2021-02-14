@@ -50,7 +50,7 @@ spec:
   - port: 80
     targetPort: 8080
     name: http
-    nodePort: 300080
+    nodePort: 30080
   selector:
     matchLabels: webapp
     app: webapp
