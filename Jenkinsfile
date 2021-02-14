@@ -4,7 +4,7 @@ environment {
 
 KUBECONFIG = '~./kube/config'
 
-imagename = "dammy1/afriprudentialtest/aptest"
+imagename = "76986/afriprudentialtest/aptest"
 registryCredential = 'dockerHub'
 configI = 'mykubeconfig'
 dockerImage = ''
