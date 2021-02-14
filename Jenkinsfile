@@ -15,7 +15,7 @@ agent any
 stages {
 stage('Cloning Git') {
 steps {
-git([url: 'https://github.com/damyl4sure/aptest.git', branch: 'dammy-patch-1'])
+git([url: 'https://github.com/damyl4sure/aptest.git', branch: 'main'])
 }
 }
 
