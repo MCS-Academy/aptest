@@ -9,17 +9,15 @@ spec:
   selector:
     matchLabels:
       app: webapp
-      version: blue
   template:
     metadata:
       name: webapp
       labels:
         app: webapp
-        version: blue
     spec:
       containers:
         - name: webapp-container
-          image: afriprudentialtest/aptestnew:latest
+          image: dammy1/afriprudentialtest/aptest:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
