@@ -1,24 +1,20 @@
 {
-  "name": "nodejscalculator",
-  "version": "1.0.0",
-  "description": "A simple NodeJs App that should calculate",
-  "main": "app.js",
-  "dependencies": {
-    "restify": "^8.5.1",
-    "save": "^2.4.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
-  },
-  "keywords": [
-    "nodejs",
-    "docker",
-    "jenkins",
-    "mycloudseries",
-    "pipeline"
-  ],
-  "author": "",
-  "license": "ISC"
-}
+    "name": "nodejscalculator",
+    "version": "1.0.0",
+    "description": "A simple NodeJs App that should calculate",
+    "main": "app.js",
+    "dependencies": {
+      "restify": "^8.5.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "nodejs",
+      "docker",
+      "jenkins",
+      "mycloudseries",
+      "pipeline"
+    ]
+  }
